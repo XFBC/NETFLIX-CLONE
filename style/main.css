@@ -1,0 +1,109 @@
+:root{
+  --vermelho: #E50914;
+  --preto: #141414;
+}
+
+/*@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');*/
+
+/* HEADER*/
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--preto);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo{
+ color: var(--vermelho);
+ font-family: 'Bebas Neue', cursive;
+ font-weight: 400;
+ font-size: 40px;
+ margin-left: 10px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #AAA;
+  margin-right: 10px;
+
+}
+
+header nav a:hover{
+  color: #fff; ;
+}
+
+/* TITULO PRINCIPAL*/
+
+.film-principal{
+  font-size: 16px;
+  background-image:url(https://images3.alphacoders.com/882/882548.jpg);
+  
+
+  height: 500px;
+  background-size: cover;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  
+}
+
+.film-principal .description{
+ margin-top: 10px;
+}
+
+.film-principal .title-serie-1{
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 10%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+.button {
+  background-color: rgba(0, 0,0,.50);
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  margin-top: 10%;
+  cursor: pointer;
+  transition: 3.s ease-out;
+}
+
+.button:hover{
+  background-color: white;
+  color: black;
+  transition: 3.s ease-out;
+  
+}
+
+.container {
+  margin-left: 30px;
+
+}
+
+.box-film{
+  height: 25%;
+  width: 100%;
+  display: block;
+}
+
+.carrousel-films{
+  margin-top: 10px;
+}
+
+
+main i{
+  margin-right: 10px;
+}

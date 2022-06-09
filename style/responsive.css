@@ -1,0 +1,25 @@
+@media screen and (max-width:600px) {
+  header .container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  main .container{
+    margin-top: 100px;
+    width: 400px;
+  }
+
+  .buttons{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+ 
+  main .button{
+    font-size: 11px;
+  }
+
+ 
+}
+
